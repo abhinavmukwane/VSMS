@@ -26,5 +26,9 @@ public class MainController {
 		return "sideNav";
 	}
 	
-	
+	@GetMapping("/login")
+	public String log()
+	{
+		return "login";
+	}
 }
