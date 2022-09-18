@@ -26,7 +26,7 @@
                                     <p class="lead">Your client has issued a malformed or illegal request.</p>
                                     <a class="text-arrow-icon" href="dashboard-1.html">
                                         <i class="ms-0 me-1" data-feather="arrow-left"></i>
-                                        Return to Dashboard
+                                        Return to Dashboard Page
                                     </a>
                                 </div>
                             </div>
