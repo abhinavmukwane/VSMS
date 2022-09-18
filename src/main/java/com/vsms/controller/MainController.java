@@ -31,4 +31,16 @@ public class MainController {
 	{
 		return "login";
 	}
+	
+	@RequestMapping("/404")
+	public String error404()
+	{
+		return "error-404";
+	}
+	
+	@RequestMapping("/400")
+	public String error400()
+	{
+		return "error-400";
+	}
 }
