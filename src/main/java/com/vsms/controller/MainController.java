@@ -43,4 +43,50 @@ public class MainController {
 	{
 		return "error-400";
 	}
+	
+	@RequestMapping("/dashboard")
+	public String dashboard()
+	{
+		return "dashboard";
+	}
+	
+	@RequestMapping("/addCustomer")
+	public String addCustomer()
+	{
+		return "addCustomer";
+	}
+	
+	@RequestMapping("/manageCustomer")
+	public String manageCustomer()
+	{
+		return "manageCustomer";
+	}
+	
+	@RequestMapping("/addVehicle")
+	public String addVehicle()
+	{
+		return "addVehicle";
+	}
+	
+	@RequestMapping("/manageVehicle")
+	public String manageVehicle()
+	{
+		return "manageVehicle";
+	}
+	
+	
+	@RequestMapping("/resetpass")
+	public String resetpass()
+	{
+		return "resetpass";
+	}
+	
+	@RequestMapping("/registration")
+	public String registration()
+	{
+		return "registration";
+	}
+	
+
+
 }
