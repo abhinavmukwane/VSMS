@@ -87,6 +87,23 @@ public class MainController {
 		return "registration";
 	}
 	
+	@RequestMapping("/employee")
+	public String employee()
+	{
+		return "employee";
+	}
+	
+	@RequestMapping("/employeelist")
+	public String employeelist()
+	{
+		return "employeelist";
+	}
+	
+	@RequestMapping("/employeereport")
+	public String employeereport()
+	{
+		return "employeereport";
+	}
 
 
 }

@@ -320,161 +320,75 @@
                     <div class="container-xl px-4 mt-n10">
                        
                        
- 
-                     <div class="container-xl px-4 mt-4">
-                        <div class="row">
-                            <div class="col-xl-4">
-                                <!-- Profile picture card-->
-                                <div class="card mb-4 mb-xl-0">
-                                    <div class="card-header">Profile Picture</div>
-                                    <div class="card-body text-center">
-                                        <!-- Profile picture image-->
-                                        <img class="img-account-profile rounded-circle mb-2" src="Vehicle-Servicing-Management-System-1\src\main\webapp\views\img" alt="" />
-                                        <!-- Profile picture help block-->
-                                        <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
-                                        <!-- Profile picture upload button-->
-                                        <button class="btn btn-primary" type="button">Upload new image</button>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="col-xl-8">
-                                <!-- Account details card-->
-                                <div class="card mb-4">
-                                    <div class="card-header">Add Employee</div>
-                                    <div class="card-body">
-                                        <form>
-                                        <div class="row gx-3 mb-3">
-                                                
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputId">Employee Id</label>
-                                                    <select class="form-select" aria-label="Default select example">
-                                                    <option selected="" disabled="">Select a Id:</option>
-                                                    <option value="A">Adhar Card</option>
-                                                    <option value="PC">Pan Card</option>
-                                                    <option value="A"></option>
-                                                    
-                                                </select>
-                                                </div>
-                                                
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputNumber">Enter Number</label>
-                                                    <input class="form-control" id="inputNumber" type="text" placeholder="Enter your id Number"/>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="row gx-3 mb-3">
-                                                <!-- Form Group (first name)-->
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputFirstName">First name</label>
-                                                    <input class="form-control" id="inputFirstName" type="text" placeholder="Enter your first name" />
-                                                </div>
-                                                <!-- Form Group (last name)-->
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputLastName">Last name</label>
-                                                    <input class="form-control" id="inputLastName" type="text" placeholder="Enter your last name"/>
-                                                </div>
-                                            </div>
-                                            <!-- Form Row        -->
-                                            <div class="row gx-3 mb-3">
-                                                <!-- Form Group (organization name)-->
-                                                 <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputBirthday">Date Of Birth</label>
-                                                    <input class="form-control" id="inputBirthday" type="text" name="birthday" placeholder="Enter your birthday" />
-                                                </div>
-                                                <!-- Form Group (location)-->
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputmobile">Mobile No</label>
-                                                    <input class="form-control" id="inputmobile" type="text" placeholder="Enter your Mobile No"  />
-                                                </div>
-                                            </div>
-                                            <!-- Form Group (email address)-->
-                                            
-                                            <div class="row gx-3 mb-3">
-                                              <div class="col-md-6">
-                                                  <label class="small mb-1" for="inputEmailAddress">Email</label>
-                                                  <input class="form-control" id="inputEmailAddress" type="email" placeholder="Enter your email address" value="name@example.com" />
-                                                </div>
-                                             <div class="col-md-6">
-                                                 <label class="small mb-1" for="inputPhone">Gender</label>
-                                                  <select class="form-select" aria-label="Default select example">
-                                                    <option selected="" disabled="">Select a Gender:</option>
-                                                    <option value="M">Male</option>
-                                                    <option value="F">Female</option>
-                                                </select>
-                                             </div>
-                                            </div>
-                                            
-                                            <div class="col-md-6">
-                                                  <label class="small mb-1" for="inputEmailAddress">Employee Work</label>
-                                                  <select class="form-select" aria-label="Default select example">
-                                                    <option selected="" disabled="">Select a Work:</option>
-                                                    <option value="1">Manager</option>
-                                                    <option value="2">Supervisor</option>
-                                                    <option value="3">Mechanic</option>
-                                                    <option value="3">Support Staff</option>
-                                                    
-                                                </select>
-                                                </div>
-                                                
-                                            <div class="row gx-3 mb-3">   
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputjoindate">Join Date</label>
-                                                   <input class="form-control" id="inputBirthday" type="text">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputleftdate">Left Date</label>
-                                                     <input class="form-control" id="inputleftdate" type="text">
-                                                </div>
-                                            </div>
-                                              <div class="row gx-3 mb-3">
-                                                <!-- Form Group (first name)-->
-                                                <label class="small mb-1" for="inputall">Address Detalis</label>
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputcountry">Country</label>
-                                                    <input class="form-control" id="inputcountry" type="text" placeholder="Enter your Country" />
-                                                </div>
-                                                <!-- Form Group (last name)-->
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputstate">State</label>
-                                                    <select class="form-select" aria-label="Default select example">
-                                                    <option selected="" disabled="">Select a State:</option>
-                                                    <option value="M">Maharashtra</option>
-                                                    <option value="AP">Andhra Pradesh</option>
-                                                    <option value="A">Assam</option>
-                                                    <option value="B">Bihar</option>
-                                                    <option value="G">Goa</option>
-                                                    <option value="G">Gujarat</option>
-                                                    <option value="H">Haryana</option>
-                                                    <option value="R">Rajasthan</option>
-                                                    <option value="MP">Madhya Pradesh</option>
-                                                    <option value="K">Kerala</option>
-                                                    <option value="P">Punjab</option>
-                                                </select>
-                                                </div>
-                                            </div>
-                                            <div class="row gx-3 mb-3">
-                                                
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputcity">City</label>
-                                                    <input class="form-control" id="inputcity" type="text" placeholder="Enter your City" />
-                                                </div>
-                                                <!-- Form Group (last name)-->
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputaddress">Address</label>
-                                                    <input class="form-control" id="inputaddress" type="text" placeholder="Enter your address"/>
-                                                </div>
-                                            </div>
-                                            <!-- Save changes button-->
-                                            <button class="btn btn-primary" type="button">Save changes</button>
-                                        </form>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
- 
-		
+                       
+	<div class="container-xl px-4 mt-n10">
+		<div class="card mb-4">
+			<section class="content-header">
+				<div class="header-icon">
+					<i class="pe-7s-note2"></i>
+				</div>
+				<div class="header-title">
+					<h1>Employee Report</h1>
+				</div>
+			</section>
+			<section class="content">
+				<div class="row">
+					<div class="col-sm-12">
+						<div class="panel panel-bd lobidrag">
+							<div class="panel-heading">
+								<div class="panel-title">
+									<a class="btn btn-info" href="#"
+										onclick="printDiv('printableArea')"><i class="fa fa-print"></i></a>
+								</div>
+							</div>
+							<div class="panel-body">
+								<div class="row">
+									<div class="table-responsive" id="printableArea">
+										<table class="table table-bordered table-hover">
+											<thead>
+												<tr>
+													<th>Sl.</th>
+													<th>Mechanic</th>
+													<th class="text-center">Assigned Total</th>
+													<th class="text-center">Pending</th>
+													<th class="text-center">In Progress</th>
+													<th class="text-center">Declined</th>
+													<th class="text-center">Completed</th>
+												</tr>
+											</thead>
+											<tbody>
+												<tr>
+													<td>1</td>
+													<td>tony tomy</td>
+													<td class="text-center">26</td>
+													<td class="text-center">20</td>
+													<td class="text-center">0</td>
+													<td class="text-center">0</td>
+													<td class="text-center">6</td>
+												</tr>
+												<tr>
+													<td>2</td>
+													<td>Ratul Hasan</td>
+													<td class="text-center">25</td>
+													<td class="text-center">20</td>
+													<td class="text-center">0</td>
+													<td class="text-center">0</td>
+													<td class="text-center">5</td>
+												</tr>
+												
+											</tbody>
+										</table>
+									</div>
+								</div>
+
+							</div>
+						</div>
+
+					</div>
+				</div>
+			</section>
+
+		</div>
                        
                        
                     </div>
