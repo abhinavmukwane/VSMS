@@ -8,7 +8,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>Dashboard</title>
+        <title>Add Vehicle</title>
         <link href="/resources/css/styles.css" rel="stylesheet" />
         <link rel="icon" type="image/x-icon" href="/resources/assets/img/favicon.png" />
         <script data-search-pseudo-elements defer src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/js/all.min.js" crossorigin="anonymous"></script>
@@ -22,7 +22,7 @@
             <!-- * * Tip * * You can use text or an image for your navbar brand.-->
             <!-- * * * * * * When using an image, we recommend the SVG format.-->
             <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
-            <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="index.html"><img src="/resources/assets/img/logo.png"/>VSMS</a>
+            <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="/dashboard"><img src="/resources/assets/img/logo.png"/>VSMS</a>
             <!-- Navbar Search Input-->
             <!-- * * Note: * * Visible only on and above the lg breakpoint-->
             <form class="form-inline me-auto d-none d-lg-block me-3">
@@ -56,39 +56,7 @@
                             <i class="me-2" data-feather="bell"></i>
                             Alerts Center
                         </h6>
-                        <!-- Example Alert 1-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-warning"><i data-feather="activity"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 29, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">This is an alert message. It's nothing serious, but it requires your attention.</div>
-                            </div>
-                        </a>
-                        <!-- Example Alert 2-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-info"><i data-feather="bar-chart"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 22, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">A new monthly report is ready. Click here to view!</div>
-                            </div>
-                        </a>
-                        <!-- Example Alert 3-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-danger"><i class="fas fa-exclamation-triangle"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 8, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">Critical system failure, systems shutting down.</div>
-                            </div>
-                        </a>
-                        <!-- Example Alert 4-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-success"><i data-feather="user-plus"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 2, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">New user request. Woody has requested access to the organization.</div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item dropdown-notifications-footer" href="#!">View All Alerts</a>
+                      
                     </div>
                 </li>
                 <!-- Messages Dropdown-->
@@ -99,51 +67,18 @@
                             <i class="me-2" data-feather="mail"></i>
                             Message Center
                         </h6>
-                        <!-- Example Message 1  -->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-2.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Thomas Wilcox � 58m</div>
-                            </div>
-                        </a>
-                        <!-- Example Message 2-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-3.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Emily Fowler � 2d</div>
-                            </div>
-                        </a>
-                        <!-- Example Message 3-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-4.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Marshall Rosencrantz � 3d</div>
-                            </div>
-                        </a>
-                        <!-- Example Message 4-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-5.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Colby Newton � 3d</div>
-                            </div>
-                        </a>
-                        <!-- Footer Link-->
-                        <a class="dropdown-item dropdown-notifications-footer" href="#!">Read All Messages</a>
+                
                     </div>
                 </li>
                 <!-- User Dropdown-->
                 <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
-                    <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="/resources/assets/img/illustrations/profiles/profile-1.png" /></a>
+                    <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="/resources/assets/img/illustrations/profiles/profile-5.png" /></a>
                     <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownUserImage">
                         <h6 class="dropdown-header d-flex align-items-center">
-                            <img class="dropdown-user-img" src="/resources/assets/img/illustrations/profiles/profile-1.png" />
+                            <img class="dropdown-user-img" src="/resources/assets/img/illustrations/profiles/profile-5.png" />
                             <div class="dropdown-user-details">
-                                <div class="dropdown-user-details-name">Valerie Luna</div>
-                                <div class="dropdown-user-details-email">vluna@aol.com</div>
+                                <div class="dropdown-user-details-name">admin</div>
+                                <div class="dropdown-user-details-email">admin@admin.com</div>
                             </div>
                         </h6>
                         <div class="dropdown-divider"></div>
@@ -151,7 +86,7 @@
                             <div class="dropdown-item-icon"><i data-feather="settings"></i></div>
                             Account
                         </a>
-                        <a class="dropdown-item" href="#!">
+                        <a class="dropdown-item" href="logout">
                             <div class="dropdown-item-icon"><i data-feather="log-out"></i></div>
                             Logout
                         </a>
@@ -184,7 +119,7 @@
                             <br>
                            
                           
-                            <a class="nav-link active" href="#">
+                            <a class="nav-link active" href="/dashboard">
                                 <div class="nav-link-icon"><i data-feather="activity"></i></div>
                                 Dashboard
                             </a>
@@ -199,8 +134,8 @@
                             <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
                                     
-                                    <a class="nav-link" href="pricing.html">Add Customer</a>
-                                    <a class="nav-link" href="invoice.html">Manage Customer</a>
+                                    <a class="nav-link" href="/addCustomer">Add Customer</a>
+                                    <a class="nav-link" href="/manageCustomer">Manage Customer</a>
                                     <div class="collapse" id="pagesCollapseAccount" data-bs-parent="#accordionSidenavPagesMenu"></div>
                                   
                                 </nav>
@@ -213,8 +148,8 @@
                             </a>
                             <div class="collapse" id="collapseApps" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavAppsMenu">
-                                    <a class="nav-link" href="addVehicle1">Add Vehicle</a>
-                                    <a class="nav-link" href="manageVehicle">Manage Vehicle</a>
+                                    <a class="nav-link" href="/addVehicle">Add Vehicle</a>
+                                    <a class="nav-link" href="/manageVehicle">Manage Vehicle</a>
                                 </nav>
                             </div>
                             <!-- Sidenav Accordion (Flows)-->
@@ -225,9 +160,9 @@
                             </a>
                             <div class="collapse" id="collapseFlows" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#">Add Job Card</a>
-                                    <a class="nav-link" href="#">Manage Job Card</a>
-                                    <a class="nav-link" href="#">Gate Pass</a>
+                                    <a class="nav-link" href="addJobCard">Add Job Card</a>
+                                    <a class="nav-link" href="manageJobCard">Manage Job Card</a>
+                                    <a class="nav-link" href="gatePass">Gate Pass</a>
                                 </nav>
                             </div>
                            
@@ -239,8 +174,8 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavLayout">
-                                    <a class="nav-link" href="multi-tenant-select.html">Add Employee</a>
-                                    <a class="nav-link" href="wizard.html">Manage Employee</a>
+                                    <a class="nav-link" href="employee">Add Employee</a>
+                                    <a class="nav-link" href="employeelist">Manage Employee</a>
                                 </nav>
                             </div>
                             
@@ -252,8 +187,8 @@
                             <div class="collapse" id="collapseUtilities" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav">
                                 
-                                    <a class="nav-link" href="animations.html">Create Invoice</a>
-                                    <a class="nav-link" href="background.html">Manage Invoice</a>
+                                    <a class="nav-link" href="generateInvoice">Generate Invoice</a>
+                                    <a class="nav-link" href="manageInvoice">Manage Invoice</a>
                                     
                                    
                                 </nav>
@@ -269,32 +204,14 @@
                                     
                                     <a class="nav-link" href="#">Vehicle Report</a>
                                     <a class="nav-link" href="#">Invoice Report</a>
-                                    <a class="nav-link" href="#">Employee Report</a>
+                                    <a class="nav-link" href="employeereport">Employee Report</a>
                                 </nav>
                             </div>
                             
                             
-                            <!-- Sidenav Heading (Addons)-->
-                            <div class="sidenav-menu-heading">Plugins</div>
-                            <!-- Sidenav Link (Charts)-->
-                            <a class="nav-link" href="charts.html">
-                                <div class="nav-link-icon"><i data-feather="bar-chart"></i></div>
-                                Charts
-                            </a>
-                            <!-- Sidenav Link (Tables)-->
-                            <a class="nav-link" href="tables.html">
-                                <div class="nav-link-icon"><i data-feather="filter"></i></div>
-                                Tables
-                            </a>
                         </div>
                     </div>
-                    <!-- Sidenav Footer-->
-                    <div class="sidenav-footer">
-                        <div class="sidenav-footer-content">
-                            <div class="sidenav-footer-subtitle">Logged in as:</div>
-                            <div class="sidenav-footer-title">Valerie Luna</div>
-                        </div>
-                    </div>
+                    
                 </nav>
             </div>
             <div id="layoutSidenav_content">
@@ -342,45 +259,27 @@
                                         <option value="edtior">Sanket</option>
                                         <option value="guest">Guest</option>
                                     </select>
-                                   
                                 </div>
                                 <!-- Form Group (Vehicle Registration)-->
                                 <div class="col-md-6">
                                     <label class="small mb-1" for="inputVehicleRegistration">Vehicle Registration <i class="text-danger"> *</i></label>
-                                    <input class="form-control" id="inputVehicleRegistration" type="text" placeholder="Enter Vehicle Registration" value="Vehicle Registration" />
-                                </div>
-                            </div>
-                            <div class="row gx-3 mb-3">
-                                <!-- Form Group (Year)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputYear">Year</label>
-                                    <input class="form-control" id="inputYear" type="text" placeholder="Enter Year" value="Year" />
-                                </div>
-                                <!-- Form Group (Seats)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputSeats">Seats</label>
-                                    <input class="form-control" id="inputSeats" type="text" placeholder="Enter Seats" value="Seats" />
+                                    <input class="form-control" id="inputVehicleRegistration" type="text" placeholder="Enter Vehicle Registration"  />
                                 </div>
                             </div>
                             <div class="row gx-3 mb-3">
                                 <!-- Form Group (Mark)-->
                                 <div class="col-md-6">
                                     <label class="small mb-1" for="inputMark">Mark</label>
-                                    <input class="form-control" id="inputMark" type="text" placeholder="Enter Mark" value="Mark" />
+                                    <input class="form-control" id="inputMark" type="text" placeholder="Enter Mark"  />
                                 </div>
                                 <!-- Form Group (CC Rating)-->
                                 <div class="col-md-6">
                                     <label class="small mb-1" for="inputCCRating">CC Rating</label>
-                                    <input class="form-control" id="inputCCRating" type="text" placeholder="Enter CC Rating" value="CC Rating" />
+                                    <input class="form-control" id="inputCCRating" type="text" placeholder="Enter CC Rating"  />
                                 </div>
                             </div>
 
                             <div class="row gx-3 mb-3">
-                                <!-- Form Group (Model)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputModel">Model</label>
-                                    <input class="form-control" id="inputModel" type="text" placeholder="Enter your Model" value="Model" />
-                                </div>
                                 <!-- Form Group (Fuel Type)-->
                                 <div class="col-md-6">
                                     <label class="small mb-1" for="inputFuelType">Fuel Type</label>
@@ -393,87 +292,17 @@
                                         <option value="guest">Electric</option>
                                     </select>
                                 </div>
+                                <!-- Form Group (Model)-->
+                                <div class="col-md-6">
+                                    <label class="small mb-1" for="inputModel">Model</label>
+                                    <input class="form-control" id="inputModel" type="text" placeholder="Enter your Vehicle Model"  />
+                                </div>
                             </div>
                             <div class="row gx-3 mb-3">
                                 <!-- Form Group (Color)-->
                                 <div class="col-md-6">
                                     <label class="small mb-1" for="inputColor">Color</label>
-                                    <input class="form-control" id="inputColor" type="text" placeholder="Enter your Color" value="Color" />
-                                </div>
-                                <!-- Form Group (Assembly Type)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputAssemblyType">Assembly Type</label>
-                                    <input class="form-control" id="inputAssemblyType" type="text" placeholder="Enter Assembly Type" value="Assembly Type" />
-                                </div>
-                            </div>
-
-                            <div class="row gx-3 mb-3">
-                                <!-- Form Group (Second Colour)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputSecondColour">Second Colour</label>
-                                    <input class="form-control" id="inputSecondColour" type="text" placeholder="Enter Second Colour" value="Second Colour" />
-                                </div>
-                                <!-- Form Group (Country of origin)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputCountryOfOrigin">Country of origin</label>
-                                    <input class="form-control" id="inputCountryOfOrigin" type="text" placeholder="Enter Country of origin" value="Country of origin" />
-                                </div>
-                            </div>
-                            <div class="row gx-3 mb-3">
-                                <!-- Form Group (Sub Model)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputSubModel">Sub Model</label>
-                                    <input class="form-control" id="inputSubModel" type="text" placeholder="Enter your Vehicle Sub Model" value="Sub Model" />
-                                </div>
-                                <!-- Form Group (Gross Vehicle Mass)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputGrossVehicleMass">Gross Vehicle Mass</label>
-                                    <input class="form-control" id="inputGrossVehicleMass" type="text" placeholder="Enter Gross Vehicle Mass" value="Gross Vehicle Mass" />
-                                </div>
-                            </div>
-
-                            <div class="row gx-3 mb-3">
-                                <!-- Form Group (Body Style)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputBodyStyle">Body Style</label>
-                                    <input class="form-control" id="inputBodyStyle" type="text" placeholder="Enter your Vehicle Body Style" value="Body Style" />
-                                </div>
-                                <!-- Form Group (Tare Weight)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputTareWeight">Tare Weight</label>
-                                    <input class="form-control" id="inputTareWeight" type="text" placeholder="Enter Vehicle Tare Weight" value="Tare Weight" />
-                                </div>
-                            </div>
-                            <div class="row gx-3 mb-3">
-                                <!-- Form Group (VIN)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputVIN">VIN <i class="text-danger"> *</i></label>
-                                    <input class="form-control" id="inputVIN" type="text" placeholder="Enter your VIN" value="VIN" />
-                                </div>
-                                <!-- Form Group (Axles)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputAxles">Axles</label>
-                                    <input class="form-control" id="inputAxles" type="text" placeholder="Enter Vehicle Axles" value="Axles" />
-                                </div>
-                            </div>
-
-                            <div class="row gx-3 mb-3">
-                                <!-- Form Group (Wheelbase)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputWheelbase">Wheelbase</label>
-                                    <input class="form-control" id="inputWheelbase" type="text" placeholder="Enter your Vehicle Wheelbase" value="Wheelbase" />
-                                </div>
-                                <!-- Form Group (Engine No)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputEngineNo">Engine No <i class="text-danger"> *</i></label>
-                                    <input class="form-control" id="inputEngineNo" type="text" placeholder="Enter Vehicle Engine No" value="Engine No" />
-                                </div>
-                            </div>
-                            <div class="row gx-3 mb-3">
-                                <!-- Form Group (Front Axle Group Rating)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputFrontAxleGroupRating">Front Axle Group Rating</label>
-                                    <input class="form-control" id="inputFrontAxleGroupRating" type="text" placeholder="Enter your Vehicle Front Axle Group Rating" value="Front Axle Group Rating" />
+                                    <input class="form-control" id="inputColor" type="text" placeholder="Enter your Vehicle Color"  />
                                 </div>
                                 <!-- Form Group (Vehicle Type)-->
                                 <div class="col-md-6">
@@ -485,17 +314,8 @@
                                         <option value="edtior">Utility</option>
                                     </select>
                                 </div>
-                            </div>
-
-                            <div class="row gx-3 mb-3">
-                                <!-- Form Group (Rear Axle Group Rating)-->
-                                <div class="col-md-6">
-                                    <label class="small mb-1" for="inputRearAxleGroupRating">Rear Axle Group Rating </label>
-                                    <input class="form-control" id="inputRearAxleGroupRating" type="text" placeholder="Enter your Vehicle Rear Axle Group Rating" value="Rear Axle Group Rating" />
-                                </div>
-                             </div>
-
-                                   
+                            </div>                              
+   
                                 <!-- <p class="mb-0">
                                     This page is an example of using static navigation. By removing the
                                     <code>.nav-fixed</code>
@@ -508,17 +328,13 @@
                               </form>
                             </div>
                         </div>
-                        <div class="text-center text-muted font-italic small">
-                            Scroll down to see example...
-                            <div class="mt-2"><i class="far fa-arrow-alt-circle-down fa-3x text-gray-400"></i></div>
-                        </div>
-                        <div style="height: 100vh"></div>
+                       
                     </div>
                 </main>
                 <footer class="footer-admin mt-auto footer-light">
                     <div class="container-xl px-4">
                         <div class="row">
-                            <div class="col-md-6 small">Copyright &copy; Your Website 2021</div>
+                            <div class="col-md-6 small">Copyright &copy; 2022</div>
                             <div class="col-md-6 text-md-end small">
                                 <a href="#!">Privacy Policy</a>
                                 &middot;

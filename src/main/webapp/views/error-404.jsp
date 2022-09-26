@@ -24,7 +24,7 @@
                                 <div class="text-center mt-4">
                                     <img class="img-fluid p-4" src="/resources/assets/img/illustrations/404-error.svg" alt="" />
                                     <p class="lead">This requested URL was not found on this server.</p>
-                                    <a class="text-arrow-icon" href="dashboard-1.html">
+                                    <a class="text-arrow-icon" href="dashboard">
                                         <i class="ms-0 me-1" data-feather="arrow-left"></i>
                                         Return to Dashboard
                                     </a>

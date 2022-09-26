@@ -22,7 +22,7 @@
             <!-- * * Tip * * You can use text or an image for your navbar brand.-->
             <!-- * * * * * * When using an image, we recommend the SVG format.-->
             <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
-            <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="index.html"><img src="/resources/assets/img/logo.png"/>VSMS</a>
+            <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="index.html">VSMS</a>
             <!-- Navbar Search Input-->
             <!-- * * Note: * * Visible only on and above the lg breakpoint-->
             <form class="form-inline me-auto d-none d-lg-block me-3">
@@ -151,7 +151,7 @@
                             <div class="dropdown-item-icon"><i data-feather="settings"></i></div>
                             Account
                         </a>
-                        <a class="dropdown-item" href="#!">
+                        <a class="dropdown-item" href="/logout">
                             <div class="dropdown-item-icon"><i data-feather="log-out"></i></div>
                             Logout
                         </a>
@@ -199,8 +199,8 @@
                             <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
                                     
-                                    <a class="nav-link" href="pricing.html">Add Customer</a>
-                                    <a class="nav-link" href="invoice.html">Manage Customer</a>
+                                    <a class="nav-link" href="pricing.html">Pricing</a>
+                                    <a class="nav-link" href="invoice.html">Invoice</a>
                                     <div class="collapse" id="pagesCollapseAccount" data-bs-parent="#accordionSidenavPagesMenu"></div>
                                   
                                 </nav>

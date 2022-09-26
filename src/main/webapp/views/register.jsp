@@ -1,9 +1,8 @@
 <%@ page language="java" contentType="text/html; charset=ISO-8859-1"
     pageEncoding="ISO-8859-1"%>
-   
-    
+    <%@taglib prefix="form" uri="http://www.springframework.org/tags/form"%>
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -30,28 +29,39 @@
                                     <div class="card-header justify-content-center"><h3 class="fw-light my-4">Create Account</h3></div>
                                     <div class="card-body">
                                         <!-- Registration form-->
-                                        <form action="/registration"  method="post">
+                                        <form:form action="register" method="post" modelAttribute="user">
                                             <!-- Form Row-->
                                             <div class="row gx-3">
                                                 <div class="col-md-6">
                                                     <!-- Form Group (first name)-->
                                                     <div class="mb-3">
                                                         <label class="small mb-1" for="inputFirstName">First Name</label>
-                                                        <input class="form-control" id="inputFirstName" type="text" placeholder="Enter first name" field="firstName"/>
+                                                        <form:input class="form-control" id="inputFirstName" path="firstName" type="text" placeholder="Enter first name" required="true"/>
                                                     </div>
                                                 </div>
                                                 <div class="col-md-6">
                                                     <!-- Form Group (last name)-->
                                                     <div class="mb-3">
                                                         <label class="small mb-1" for="inputLastName">Last Name</label>
-                                                        <input class="form-control" id="inputLastName"  type="text" placeholder="Enter last name" field="lastName"/>
+                                                        <form:input class="form-control" id="inputLastName" path="lastName" type="text" placeholder="Enter last name" required="true"/>
                                                     </div>
                                                 </div>
                                             </div>
+                                            <div class="row gx-3">
+                                            <div class="col-md-6">
                                             <!-- Form Group (email address)            -->
                                             <div class="mb-3">
                                                 <label class="small mb-1" for="inputEmailAddress">Email</label>
-                                                <input class="form-control" id="inputEmailAddress" path="email" type="email" aria-describedby="emailHelp" placeholder="Enter email address" field="email" />
+                                                <form:input class="form-control" id="inputEmailAddress" path="email" type="email" aria-describedby="emailHelp" placeholder="Enter email address" required="true"/>
+                                            </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                    <!-- Form Group (last name)-->
+                                                    <div class="mb-3">
+                                                        <label class="small mb-1" for="inputMobileNumber">Mobile Number</label>
+                                                        <input class="form-control" id="inputMobileNumber"  type="number" placeholder="Enter Mobile Number" required="true"/>
+                                                    </div>
+                                                </div>
                                             </div>
                                             <!-- Form Row    -->
                                             <div class="row gx-3">
@@ -59,23 +69,17 @@
                                                     <!-- Form Group (password)-->
                                                     <div class="mb-3">
                                                         <label class="small mb-1" for="inputPassword">Password</label>
-                                                        <input class="form-control" id="inputPassword" path="password" type="password"  placeholder="Enter password" field="password"/>
+                                                        <form:input class="form-control" id="inputPassword" type="password" path="password" placeholder="Enter password" required="true"/>
                                                     </div>
                                                 </div>
-                                                <div class="col-md-6">
-                                                    <!-- Form Group (confirm password)-->
-                                                    <div class="mb-3">
-                                                        <label class="small mb-1" for="inputConfirmPassword">Confirm Password</label>
-                                                        <input class="form-control" id="inputConfirmPassword" type="password"  placeholder="Confirm password" field="confirmPassword"/>
-                                                    </div>
-                                                </div>
+                                              
                                             </div>
                                             <!-- Form Group (create account submit)-->
-                                            <button class="btn btn-primary btn-block" type="submit">Create Account</button>
-                                        </form>
+                                            <input class="btn btn-primary btn-block" type="submit" value="Create Account"/>
+                                        </form:form>
                                     </div>
                                     <div class="card-footer text-center">
-                                        <div class="small"><a href="/login">Have an account? Go to login</a></div>
+                                        <div class="small"><a href="/login" >Have an account? Go to login</a></div>
                                     </div>
                                 </div>
                             </div>

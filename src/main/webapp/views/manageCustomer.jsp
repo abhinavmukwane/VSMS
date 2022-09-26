@@ -56,39 +56,7 @@
                             <i class="me-2" data-feather="bell"></i>
                             Alerts Center
                         </h6>
-                        <!-- Example Alert 1-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-warning"><i data-feather="activity"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 29, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">This is an alert message. It's nothing serious, but it requires your attention.</div>
-                            </div>
-                        </a>
-                        <!-- Example Alert 2-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-info"><i data-feather="bar-chart"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 22, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">A new monthly report is ready. Click here to view!</div>
-                            </div>
-                        </a>
-                        <!-- Example Alert 3-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-danger"><i class="fas fa-exclamation-triangle"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 8, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">Critical system failure, systems shutting down.</div>
-                            </div>
-                        </a>
-                        <!-- Example Alert 4-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-success"><i data-feather="user-plus"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 2, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">New user request. Woody has requested access to the organization.</div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item dropdown-notifications-footer" href="#!">View All Alerts</a>
+                      
                     </div>
                 </li>
                 <!-- Messages Dropdown-->
@@ -99,51 +67,18 @@
                             <i class="me-2" data-feather="mail"></i>
                             Message Center
                         </h6>
-                        <!-- Example Message 1  -->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-2.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Thomas Wilcox � 58m</div>
-                            </div>
-                        </a>
-                        <!-- Example Message 2-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-3.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Emily Fowler � 2d</div>
-                            </div>
-                        </a>
-                        <!-- Example Message 3-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-4.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Marshall Rosencrantz � 3d</div>
-                            </div>
-                        </a>
-                        <!-- Example Message 4-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-5.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Colby Newton � 3d</div>
-                            </div>
-                        </a>
-                        <!-- Footer Link-->
-                        <a class="dropdown-item dropdown-notifications-footer" href="#!">Read All Messages</a>
+                
                     </div>
                 </li>
                 <!-- User Dropdown-->
                 <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
-                    <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="/resources/assets/img/illustrations/profiles/profile-1.png" /></a>
+                    <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="/resources/assets/img/illustrations/profiles/profile-5.png" /></a>
                     <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownUserImage">
                         <h6 class="dropdown-header d-flex align-items-center">
-                            <img class="dropdown-user-img" src="/resources/assets/img/illustrations/profiles/profile-1.png" />
+                            <img class="dropdown-user-img" src="/resources/assets/img/illustrations/profiles/profile-5.png" />
                             <div class="dropdown-user-details">
-                                <div class="dropdown-user-details-name">Valerie Luna</div>
-                                <div class="dropdown-user-details-email">vluna@aol.com</div>
+                                <div class="dropdown-user-details-name">admin</div>
+                                <div class="dropdown-user-details-email">admin@admin.com</div>
                             </div>
                         </h6>
                         <div class="dropdown-divider"></div>
@@ -151,7 +86,7 @@
                             <div class="dropdown-item-icon"><i data-feather="settings"></i></div>
                             Account
                         </a>
-                        <a class="dropdown-item" href="#!">
+                        <a class="dropdown-item" href="logout">
                             <div class="dropdown-item-icon"><i data-feather="log-out"></i></div>
                             Logout
                         </a>
@@ -213,8 +148,8 @@
                             </a>
                             <div class="collapse" id="collapseApps" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavAppsMenu">
-                                    <a class="nav-link" href="pricing.html">Add Vehicle</a>
-                                    <a class="nav-link" href="invoice.html">Manage Vehicle</a>
+                                    <a class="nav-link" href="/addVehicle">Add Vehicle</a>
+                                    <a class="nav-link" href="/manageVehicle">Manage Vehicle</a>
                                 </nav>
                             </div>
                             <!-- Sidenav Accordion (Flows)-->
@@ -225,9 +160,9 @@
                             </a>
                             <div class="collapse" id="collapseFlows" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#">Add Job Card</a>
-                                    <a class="nav-link" href="#">Manage Job Card</a>
-                                    <a class="nav-link" href="#">Gate Pass</a>
+                                    <a class="nav-link" href="addJobCard">Add Job Card</a>
+                                    <a class="nav-link" href="manageJobCard">Manage Job Card</a>
+                                    <a class="nav-link" href="gatePass">Gate Pass</a>
                                 </nav>
                             </div>
                            
@@ -239,8 +174,8 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavLayout">
-                                    <a class="nav-link" href="multi-tenant-select.html">Add Employee</a>
-                                    <a class="nav-link" href="wizard.html">Manage Employee</a>
+                                    <a class="nav-link" href="employee">Add Employee</a>
+                                    <a class="nav-link" href="employeelist">Manage Employee</a>
                                 </nav>
                             </div>
                             
@@ -252,8 +187,8 @@
                             <div class="collapse" id="collapseUtilities" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav">
                                 
-                                    <a class="nav-link" href="animations.html">Create Invoice</a>
-                                    <a class="nav-link" href="background.html">Manage Invoice</a>
+                                    <a class="nav-link" href="generateInvoice">Generate Invoice</a>
+                                    <a class="nav-link" href="manageInvoice">Manage Invoice</a>
                                     
                                    
                                 </nav>
@@ -269,92 +204,159 @@
                                     
                                     <a class="nav-link" href="#">Vehicle Report</a>
                                     <a class="nav-link" href="#">Invoice Report</a>
-                                    <a class="nav-link" href="#">Employee Report</a>
+                                    <a class="nav-link" href="employeereport">Employee Report</a>
                                 </nav>
                             </div>
                             
                             
-                            <!-- Sidenav Heading (Addons)-->
-                            <div class="sidenav-menu-heading">Plugins</div>
-                            <!-- Sidenav Link (Charts)-->
-                            <a class="nav-link" href="charts.html">
-                                <div class="nav-link-icon"><i data-feather="bar-chart"></i></div>
-                                Charts
-                            </a>
-                            <!-- Sidenav Link (Tables)-->
-                            <a class="nav-link" href="tables.html">
-                                <div class="nav-link-icon"><i data-feather="filter"></i></div>
-                                Tables
-                            </a>
                         </div>
                     </div>
-                    <!-- Sidenav Footer-->
-                    <div class="sidenav-footer">
-                        <div class="sidenav-footer-content">
-                            <div class="sidenav-footer-subtitle">Logged in as:</div>
-                            <div class="sidenav-footer-title">Valerie Luna</div>
-                        </div>
-                    </div>
+                    
                 </nav>
             </div>
-<div class="container-fluid px-4">
-                        <div class="card">
-                            <div class="card-body">
-                                <div class="dataTable-wrapper dataTable-loading no-footer sortable searchable fixed-columns">
-                                 <div class="dataTable-top">
-                                    <div class="dataTable-dropdown">
-                                         <label><select class="dataTable-selector">
-                                         <option value="5">5</option><option value="10" selected="">10</option><option value="15">15</option><option value="20">20</option><option value="25">25</option></select>Show Entries</label></div>
-                                         <div class="dataTable-search"><input class="dataTable-input" placeholder="Search..." type="text"></div></div><div class="dataTable-container">
-                                         <table id="datatablesSimple" class="dataTable-table">
-                                            
-                                     
-                                            </div>
-                                             <div class="dataTable-container">
-                                                <table id="datatablesSimple" class="dataTable-table">
-                                                 <thead>
-                                                    <tr><th data-sortable="" style="width: 13.4021%">
-                                                    <a href="#" class="dataTable-sorter">Img</a></th>
-                                                     <th data-sortable="" style="width: 13.4021%;">
-                                                    <a href="#" class="dataTable-sorter">First Name</a></th>
-                                                    <th data-sortable="" style="width: 13.4021%;">
-                                                    <a href="#" class="dataTable-sorter">Last Name</a></th>
-                                                    <th data-sortable="" style="width: 13.4021%;">
-                                                    <a href="#" class="dataTable-sorter">Email</a></th>
-                                                    <th data-sortable="" style="width: 13.4021%;">
-                                                    <a href="#" class="dataTable-sorter">Mobile No</a></th>
-                                                      <th data-sortable="" style="width: 13.4021%;">
-                                                    <a href="#" class="dataTable-sorter">Vehicle type</a></th>
-                                                     <th data-sortable="" style="width: 13.4021%;">
-                                                      <a href="#" class="dataTable-sorter">Vehicle Work</a></th>
-                                                     <th data-sortable="" style="width: 13.4021%;">
-                                                       <a href="#" class="dataTable-sorter">Date</a></th>
-                                                     <th data-sortable="" style="width: 13.4021%;">
-                                                    <a href="#" class="dataTable-sorter">Actions</a></th></tr>
-                                                  </thead>        
-                                              </table>
-                                </div>
-                                  </div>
-                                <div class="dataTable-bottom">
-                                <div class="dataTable-bottom"><div class="dataTable-info">Showing entries</div>
-                               <nav class="dataTable-pagination"><ul class="dataTable-pagination-list"><li class="active"><a href="#" data-page="1">1</a></li><li class=""><a href="#" data-page="2">2</a></li><li class="pager"><a href="#" data-page="2">>>></a></li></ul>
-                               </nav>
-                               </div>
-                               </div>
-                               </table>
-                            </div>
-                        </div>
-                    </div>
-                     </div>
-                     </div>
-                     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
-        <script src="/resources/js/scripts.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.min.js" crossorigin="anonymous"></script>
-        <script src="/resources/assets/demo/chart-area-demo.js"></script>
-        <script src="/resources/assets/demo/chart-bar-demo.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/simple-datatables@latest" crossorigin="anonymous"></script>
-        <script src="/resources/js/datatables/datatables-simple-demo.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/litepicker/dist/bundle.js" crossorigin="anonymous"></script>
-        <script src="/resources/js/litepicker.js"></script>
+		<div id="layoutSidenav_content">
+			<main>
+				<header
+					class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
+					<div class="container-xl px-4">
+						<div class="page-header-content pt-4">
+
+							<!-- edit-->
+							<div class="row align-items-center justify-content-between">
+								<div class="col-auto mt-4">
+									<h1 class="page-header-title">
+										<div class="page-header-icon">
+											<i data-feather="layout"></i>
+										</div>
+										Customers
+									</h1>
+									<div class="page-header-subtitle">Manage Customers</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</header>
+				<!-- Main page content-->
+				<div class="container-xl px-4 mt-n10">
+
+
+
+					<div class="container-xl px-4 mt-n10">
+
+						<section class="content">
+							<div class="row">
+								<div class="col-sm-12">
+									<div class="panel panel-bd lobidrag">
+										<div class="panel-body">
+											<div class="row">
+												<div class="table-responsive" id="printableArea">
+													<div class="container-fluid px-4">
+														<div class="card">
+															<div class="card-body">
+																<div
+																	class="dataTable-wrapper dataTable-loading no-footer sortable searchable fixed-columns">
+																	<div class="dataTable-top">
+																		<div class="dataTable-dropdown">
+																			<label><select class="dataTable-selector">
+																					<option value="5">5</option>
+																					<option value="10" selected="">10</option>
+																					<option value="15">15</option>
+																					<option value="20">20</option>
+																					<option value="25">25</option>
+																			</select>Show Entries</label>
+																		</div>
+																		<div class="dataTable-search">
+																			<input class="dataTable-input"
+																				placeholder="Search..." type="text">
+																		</div>
+																	</div>
+																	<div class="dataTable-container">
+																		<table id="datatablesSimple" class="dataTable-table">
+
+
+																			</div>
+																			<div class="dataTable-container">
+																				<table id="datatablesSimple" class="dataTable-table">
+																					<thead>
+																						<tr>
+																							<th data-sortable="" style="width: 13.4021%;">
+																								<a href="#" class="dataTable-sorter">First
+																									Name</a>
+																							</th>
+																							<th data-sortable="" style="width: 13.4021%;">
+																								<a href="#" class="dataTable-sorter">Last
+																									Name</a>
+																							</th>
+																							<th data-sortable="" style="width: 13.4021%;">
+																								<a href="#" class="dataTable-sorter">Email</a>
+																							</th>
+																							<th data-sortable="" style="width: 13.4021%;">
+																								<a href="#" class="dataTable-sorter">Mobile
+																									No</a>
+																							</th>
+																							<th data-sortable="" style="width: 13.4021%;">
+																								<a href="#" class="dataTable-sorter">Gender</a>
+																							</th>
+																							
+																							</th>
+																							<th data-sortable="" style="width: 13.4021%;">
+																								<a href="#" class="dataTable-sorter">Actions</a>
+																							</th>
+																						</tr>
+																					</thead>
+
+
+																				</table>
+																			</div>
+																			<div class="dataTable-bottom">
+																				<div class="dataTable-bottom">
+																					<div class="dataTable-info">Showing entries</div>
+																				</div>
+																				<nav class="dataTable-pagination">
+																					<ul class="dataTable-pagination-list">
+																						<li class="active"><a href="#" data-page="1">1</a></li>
+																						<li class=""><a href="#" data-page="2">2</a></li>
+																						<li class="pager"><a href="#" data-page="2">>>></a></li>
+																					</ul>
+																				</nav>
+																			</div>
+																			</div>
+																			</div>
+																			</div>
+
+																			</div>
+																			</div>
+																			</div>
+
+																			</div>
+
+
+																			</div>
+																			</div>
+																			</section>
+																	</div>
+
+
+																</div>
+			</main>
+			<footer class="footer-admin mt-auto footer-light">
+				<div class="container-xl px-4">
+					<div class="row">
+						<div class="col-md-6 small">Copyright &copy; Your Website
+							2021</div>
+						<div class="col-md-6 text-md-end small">
+							<a href="#!">Privacy Policy</a> &middot; <a href="#!">Terms
+								&amp; Conditions</a>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+	</div>
+
+	<script
+		src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+		crossorigin="anonymous"></script>
+	<script src="/resources/js/scripts.js"></script>
 </body>
 </html>

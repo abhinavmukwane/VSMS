@@ -56,39 +56,7 @@
                             <i class="me-2" data-feather="bell"></i>
                             Alerts Center
                         </h6>
-                        <!-- Example Alert 1-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-warning"><i data-feather="activity"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 29, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">This is an alert message. It's nothing serious, but it requires your attention.</div>
-                            </div>
-                        </a>
-                        <!-- Example Alert 2-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-info"><i data-feather="bar-chart"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 22, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">A new monthly report is ready. Click here to view!</div>
-                            </div>
-                        </a>
-                        <!-- Example Alert 3-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-danger"><i class="fas fa-exclamation-triangle"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 8, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">Critical system failure, systems shutting down.</div>
-                            </div>
-                        </a>
-                        <!-- Example Alert 4-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <div class="dropdown-notifications-item-icon bg-success"><i data-feather="user-plus"></i></div>
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-details">December 2, 2021</div>
-                                <div class="dropdown-notifications-item-content-text">New user request. Woody has requested access to the organization.</div>
-                            </div>
-                        </a>
-                        <a class="dropdown-item dropdown-notifications-footer" href="#!">View All Alerts</a>
+                      
                     </div>
                 </li>
                 <!-- Messages Dropdown-->
@@ -99,51 +67,18 @@
                             <i class="me-2" data-feather="mail"></i>
                             Message Center
                         </h6>
-                        <!-- Example Message 1  -->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-2.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Thomas Wilcox � 58m</div>
-                            </div>
-                        </a>
-                        <!-- Example Message 2-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-3.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Emily Fowler � 2d</div>
-                            </div>
-                        </a>
-                        <!-- Example Message 3-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-4.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Marshall Rosencrantz � 3d</div>
-                            </div>
-                        </a>
-                        <!-- Example Message 4-->
-                        <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-5.png" />
-                            <div class="dropdown-notifications-item-content">
-                                <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
-                                <div class="dropdown-notifications-item-content-details">Colby Newton � 3d</div>
-                            </div>
-                        </a>
-                        <!-- Footer Link-->
-                        <a class="dropdown-item dropdown-notifications-footer" href="#!">Read All Messages</a>
+                
                     </div>
                 </li>
                 <!-- User Dropdown-->
                 <li class="nav-item dropdown no-caret dropdown-user me-3 me-lg-4">
-                    <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="/resources/assets/img/illustrations/profiles/profile-1.png" /></a>
+                    <a class="btn btn-icon btn-transparent-dark dropdown-toggle" id="navbarDropdownUserImage" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><img class="img-fluid" src="/resources/assets/img/illustrations/profiles/profile-5.png" /></a>
                     <div class="dropdown-menu dropdown-menu-end border-0 shadow animated--fade-in-up" aria-labelledby="navbarDropdownUserImage">
                         <h6 class="dropdown-header d-flex align-items-center">
-                            <img class="dropdown-user-img" src="/resources/assets/img/illustrations/profiles/profile-1.png" />
+                            <img class="dropdown-user-img" src="/resources/assets/img/illustrations/profiles/profile-5.png" />
                             <div class="dropdown-user-details">
-                                <div class="dropdown-user-details-name">Valerie Luna</div>
-                                <div class="dropdown-user-details-email">vluna@aol.com</div>
+                                <div class="dropdown-user-details-name">admin</div>
+                                <div class="dropdown-user-details-email">admin@admin.com</div>
                             </div>
                         </h6>
                         <div class="dropdown-divider"></div>
@@ -151,7 +86,7 @@
                             <div class="dropdown-item-icon"><i data-feather="settings"></i></div>
                             Account
                         </a>
-                        <a class="dropdown-item" href="#!">
+                        <a class="dropdown-item" href="logout">
                             <div class="dropdown-item-icon"><i data-feather="log-out"></i></div>
                             Logout
                         </a>
@@ -213,8 +148,8 @@
                             </a>
                             <div class="collapse" id="collapseApps" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavAppsMenu">
-                                    <a class="nav-link" href="pricing.html">Add Vehicle</a>
-                                    <a class="nav-link" href="invoice.html">Manage Vehicle</a>
+                                    <a class="nav-link" href="/addVehicle">Add Vehicle</a>
+                                    <a class="nav-link" href="/manageVehicle">Manage Vehicle</a>
                                 </nav>
                             </div>
                             <!-- Sidenav Accordion (Flows)-->
@@ -225,9 +160,9 @@
                             </a>
                             <div class="collapse" id="collapseFlows" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav">
-                                    <a class="nav-link" href="#">Add Job Card</a>
-                                    <a class="nav-link" href="#">Manage Job Card</a>
-                                    <a class="nav-link" href="#">Gate Pass</a>
+                                    <a class="nav-link" href="addJobCard">Add Job Card</a>
+                                    <a class="nav-link" href="manageJobCard">Manage Job Card</a>
+                                    <a class="nav-link" href="gatePass">Gate Pass</a>
                                 </nav>
                             </div>
                            
@@ -239,8 +174,8 @@
                             </a>
                             <div class="collapse" id="collapseLayouts" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavLayout">
-                                    <a class="nav-link" href="multi-tenant-select.html">Add Employee</a>
-                                    <a class="nav-link" href="wizard.html">Manage Employee</a>
+                                    <a class="nav-link" href="employee">Add Employee</a>
+                                    <a class="nav-link" href="employeelist">Manage Employee</a>
                                 </nav>
                             </div>
                             
@@ -252,8 +187,8 @@
                             <div class="collapse" id="collapseUtilities" data-bs-parent="#accordionSidenav">
                                 <nav class="sidenav-menu-nested nav">
                                 
-                                    <a class="nav-link" href="animations.html">Create Invoice</a>
-                                    <a class="nav-link" href="background.html">Manage Invoice</a>
+                                    <a class="nav-link" href="generateInvoice">Generate Invoice</a>
+                                    <a class="nav-link" href="manageInvoice">Manage Invoice</a>
                                     
                                    
                                 </nav>
@@ -269,66 +204,39 @@
                                     
                                     <a class="nav-link" href="#">Vehicle Report</a>
                                     <a class="nav-link" href="#">Invoice Report</a>
-                                    <a class="nav-link" href="#">Employee Report</a>
+                                    <a class="nav-link" href="employeereport">Employee Report</a>
                                 </nav>
                             </div>
                             
                             
-                            <!-- Sidenav Heading (Addons)-->
-                            <div class="sidenav-menu-heading">Plugins</div>
-                            <!-- Sidenav Link (Charts)-->
-                            <a class="nav-link" href="charts.html">
-                                <div class="nav-link-icon"><i data-feather="bar-chart"></i></div>
-                                Charts
-                            </a>
-                            <!-- Sidenav Link (Tables)-->
-                            <a class="nav-link" href="tables.html">
-                                <div class="nav-link-icon"><i data-feather="filter"></i></div>
-                                Tables
-                            </a>
                         </div>
                     </div>
-                    <!-- Sidenav Footer-->
-                    <div class="sidenav-footer">
-                        <div class="sidenav-footer-content">
-                            <div class="sidenav-footer-subtitle">Logged in as:</div>
-                            <div class="sidenav-footer-title">Valerie Luna</div>
-                        </div>
-                    </div>
+                    
                 </nav>
             </div>
-            <main>
-            <header class="page-header page-header-compact page-header-light border-bottom bg-white mb-4">
+            <div id="layoutSidenav_content">
+                <main>
+                    <header class="page-header page-header-dark bg-gradient-primary-to-secondary pb-10">
                         <div class="container-xl px-4">
-                            <div class="page-header-content">
-                                <div class="row align-items-center justify-content-between pt-3">
-                                    <div class="col-auto mb-3">
+                            <div class="page-header-content pt-4">
+                            
+                            <!-- edit-->
+                                <div class="row align-items-center justify-content-between">
+                                    <div class="col-auto mt-4">
                                         <h1 class="page-header-title">
-                                            <div class="page-header-icon"><i data-feather="user"></i></div>
-                                            Account Settings - Billing
+                                            <div class="page-header-icon"><i data-feather="layout"></i></div>
+                                            Customer
                                         </h1>
+                                        <div class="page-header-subtitle"> Add New Customer</div>
                                     </div>
                                 </div>
                             </div>
                         </div>
                     </header>
-            
+            <div class="container-xl px-4 mt-n10">
     <div class="container-xl px-4 mt-4">
                         <div class="row">
-                            <div class="col-xl-4">
-                                <!-- Profile picture card-->
-                                <div class="card mb-4 mb-xl-0">
-                                    <div class="card-header">Profile Picture</div>
-                                    <div class="card-body text-center">
-                                        <!-- Profile picture image-->
-                                        <img class="img-account-profile rounded-circle mb-2" src="Vehicle-Servicing-Management-System-1\src\main\webapp\views\img" alt="" />
-                                        <!-- Profile picture help block-->
-                                        <div class="small font-italic text-muted mb-4">JPG or PNG no larger than 5 MB</div>
-                                        <!-- Profile picture upload button-->
-                                        <button class="btn btn-primary" type="button">Upload new image</button>
-                                    </div>
-                                </div>
-                            </div>
+                            
                             <div class="col-xl-8">
                                 <!-- Account details card-->
                                 <div class="card mb-4">
@@ -381,46 +289,7 @@
                                              </div>
                                             </div>
                                             
-                                             <div class="row gx-3 mb-3">
-                                               
-                                       
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputCN">Vehicle Type</label>
-                                                   <select class="form-select" aria-label="Default select example">
-                                                    <option selected="" disabled="">Select a vehicle type:</option>
-                                                    <option value="BG">Bike With Gare</option>
-                                                    <option value="BWG">Bike Without Gare</option>
-                                                    <option value="B">E-Bike</option>
-                                                    
-                                                </select>
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputBN">Vehicle Work</label>
-                                                     <select class="form-select" aria-label="Default select example">
-                                                    <option selected="" disabled="">Select a vehicle work:</option>
-                                                    <option value="S">Servicing</option>
-                                                    <option value="EO">Engine Oil</option>
-                                                    <option value="CL">Chaine lube</option>
-                                                    <option value="RBL">Rear Brake Liner</option>
-                                                     <option value="BC">Battery Changing</option>
-                                                    <option value="CO">Calliper Overhall</option>
-                                                </select>
-                                                </div>
-                                            </div>
-                                            
-                                            <div class="row gx-3 mb-3">
-                                                <!-- Form Group (first name)-->
-                                                <label class="small mb-1" for="inputall">Bike Details</label>
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputCN">Company Name</label>
-                                                   <input class="form-control" id="inputCN" type="text">
-                                                </div>
-                                                <div class="col-md-6">
-                                                    <label class="small mb-1" for="inputBN">Bike No</label>
-                                                     <input class="form-control" id="inputBN" type="text">
-                                                </div>
-                                            </div>
-                                            
+                                             
                                               <div class="row gx-3 mb-3">
                                                 <!-- Form Group (first name)-->
                                                 <label class="small mb-1" for="inputall">Address Detalis</label>

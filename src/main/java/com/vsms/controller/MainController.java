@@ -1,17 +1,30 @@
 package com.vsms.controller;
 
 import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 public class MainController {
-
 	
-	@RequestMapping("/index")
-	public String login()
+	
+	@GetMapping("/login") 
+	public String login(Model model) {
+		return "login"; 
+	}
+	
+	@RequestMapping("/") 
+	public String inndes() {
+		return "index"; 
+	}
+	
+	 
+	@RequestMapping("/dashboard")
+	public String dashboard()
 	{
-		return "index";
+		return "dashboard";
 	}
 	
 	@RequestMapping("/header")
@@ -19,23 +32,11 @@ public class MainController {
 	{
 		return "header";
 	}
-	
-	@RequestMapping("/nav")
-	public String nav()
+
+	@GetMapping("/resetpass")
+	public String resetpass()
 	{
-		return "sideNav";
-	}
-	
-	@GetMapping("/login")
-	public String log()
-	{
-		return "login";
-	}
-	
-	@RequestMapping("/404")
-	public String error404()
-	{
-		return "error-404";
+		return "resetpass";
 	}
 	
 	@RequestMapping("/400")
@@ -44,11 +45,43 @@ public class MainController {
 		return "error-400";
 	}
 	
-	@RequestMapping("/dashboard")
-	public String dashboard()
+	@RequestMapping("/401")
+	public String error401()
 	{
-		return "dashboard";
+		return "error-401";
 	}
+	
+	@RequestMapping("/404")
+	public String error404()
+	{
+		return "error-404";
+	}
+	
+	@RequestMapping("/403")
+	public String error403()
+	{
+		return "error-403";
+	}
+	
+	@RequestMapping("/regsuccess")
+	public String regsuccess()
+	{
+		return "regsuccess";
+	}
+	
+	@RequestMapping("/redirect")
+	public String redirect()
+	{
+		return "redirect";
+	}
+	
+
+	@RequestMapping("/nav")
+	public String nav()
+	{
+		return "sideNav";
+	}
+	
 	
 	@RequestMapping("/addCustomer")
 	public String addCustomer()
@@ -74,19 +107,6 @@ public class MainController {
 		return "manageVehicle";
 	}
 	
-	
-	@RequestMapping("/resetpass")
-	public String resetpass()
-	{
-		return "resetpass";
-	}
-	
-	@RequestMapping("/registration")
-	public String registration()
-	{
-		return "registration";
-	}
-	
 	@RequestMapping("/employee")
 	public String employee()
 	{
@@ -104,6 +124,40 @@ public class MainController {
 	{
 		return "employeereport";
 	}
-
-
+	
+	@RequestMapping("/generateInvoice")
+	public String generateInvoice()
+	{
+		return "generateInvoice";
+	}
+	
+	@RequestMapping("/manageInvoice")
+	public String manageInvoice()
+	{
+		return "manageInvoice";
+	}
+	
+	@RequestMapping("/manageJobCard")
+	public String manageJobCard()
+	{
+		return "manageJobCard";
+	}
+	
+	@RequestMapping("/addJobCard")
+	public String addJobCard()
+	{
+		return "addJobCard";
+	}
+	
+	@RequestMapping("/gatePass")
+	public String gatePass()
+	{
+		return "gatePass";
+	}
+	
+	@RequestMapping("/customerDashboard")
+	public String customerDashboard()
+	{
+		return "customerDashboard";
+	}
 }

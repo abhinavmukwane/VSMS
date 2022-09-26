@@ -22,7 +22,7 @@
             <!-- * * Tip * * You can use text or an image for your navbar brand.-->
             <!-- * * * * * * When using an image, we recommend the SVG format.-->
             <!-- * * * * * * Dimensions: Maximum height: 32px, maximum width: 240px-->
-            <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="index.html">VSMS</a>
+            <a class="navbar-brand pe-3 ps-4 ps-lg-2" href="index.html">SB Admin Pro</a>
             <!-- Navbar Search Input-->
             <!-- * * Note: * * Visible only on and above the lg breakpoint-->
             <form class="form-inline me-auto d-none d-lg-block me-3">
@@ -33,7 +33,38 @@
             </form>
             <!-- Navbar Items-->
             <ul class="navbar-nav align-items-center ms-auto">
-                
+                <!-- Documentation Dropdown-->
+                <li class="nav-item dropdown no-caret d-none d-md-block me-3">
+                    <a class="nav-link dropdown-toggle" id="navbarDropdownDocs" href="javascript:void(0);" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <div class="fw-500">Documentation</div>
+                        <svg class="svg-inline--fa fa-chevron-right dropdown-arrow" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="chevron-right" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" data-fa-i2svg=""><path fill="currentColor" d="M96 480c-8.188 0-16.38-3.125-22.62-9.375c-12.5-12.5-12.5-32.75 0-45.25L242.8 256L73.38 86.63c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0l192 192c12.5 12.5 12.5 32.75 0 45.25l-192 192C112.4 476.9 104.2 480 96 480z"></path></svg><!-- <i class="fas fa-chevron-right dropdown-arrow"></i> Font Awesome fontawesome.com -->
+                    </a>
+                    <div class="dropdown-menu dropdown-menu-end py-0 me-sm-n15 me-lg-0 o-hidden animated--fade-in-up" aria-labelledby="navbarDropdownDocs">
+                        <a class="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-admin-pro" target="_blank">
+                            <div class="icon-stack bg-primary-soft text-primary me-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-book"><path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path><path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path></svg></div>
+                            <div>
+                                <div class="small text-gray-500">Documentation</div>
+                                Usage instructions and reference
+                            </div>
+                        </a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-admin-pro/components" target="_blank">
+                            <div class="icon-stack bg-primary-soft text-primary me-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-code"><polyline points="16 18 22 12 16 6"></polyline><polyline points="8 6 2 12 8 18"></polyline></svg></div>
+                            <div>
+                                <div class="small text-gray-500">Components</div>
+                                Code snippets and reference
+                            </div>
+                        </a>
+                        <div class="dropdown-divider m-0"></div>
+                        <a class="dropdown-item py-3" href="https://docs.startbootstrap.com/sb-admin-pro/changelog" target="_blank">
+                            <div class="icon-stack bg-primary-soft text-primary me-4"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file-text"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline></svg></div>
+                            <div>
+                                <div class="small text-gray-500">Changelog</div>
+                                Updates and changes
+                            </div>
+                        </a>
+                    </div>
+                </li>
                 <!-- Navbar Search Dropdown-->
                 <!-- * * Note: * * Visible only below the lg breakpoint-->
                 <li class="nav-item dropdown no-caret me-3 d-lg-none">
@@ -101,7 +132,7 @@
                         </h6>
                         <!-- Example Message 1  -->
                         <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="assets/img/illustrations/profiles/profile-2.png">
+                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-2.png">
                             <div class="dropdown-notifications-item-content">
                                 <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                                 <div class="dropdown-notifications-item-content-details">Thomas Wilcox · 58m</div>
@@ -117,7 +148,7 @@
                         </a>
                         <!-- Example Message 3-->
                         <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-4.png">
+                            <img class="dropdown-notifications-item-img" src="assets/img/illustrations/profiles/profile-4.png">
                             <div class="dropdown-notifications-item-content">
                                 <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                                 <div class="dropdown-notifications-item-content-details">Marshall Rosencrantz · 3d</div>
@@ -125,7 +156,7 @@
                         </a>
                         <!-- Example Message 4-->
                         <a class="dropdown-item dropdown-notifications-item" href="#!">
-                            <img class="dropdown-notifications-item-img" src="/resources/assets/img/illustrations/profiles/profile-5.png">
+                            <img class="dropdown-notifications-item-img" src="assets/img/illustrations/profiles/profile-5.png">
                             <div class="dropdown-notifications-item-content">
                                 <div class="dropdown-notifications-item-content-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</div>
                                 <div class="dropdown-notifications-item-content-details">Colby Newton · 3d</div>
@@ -159,6 +190,332 @@
                 </li>
             </ul>
         </nav>
+        
+        <div id="layoutSidenav">
+        <div id="layoutSidenav_nav">
+                <nav class="sidenav shadow-right sidenav-light">
+                    <div class="sidenav-menu">
+                        <div class="nav accordion" id="accordionSidenav">
+                            <!-- Sidenav Menu Heading (Account)-->
+                            <!-- * * Note: * * Visible only on and above the sm breakpoint-->
+                            <div class="sidenav-menu-heading d-sm-none">Account</div>
+                            <!-- Sidenav Link (Alerts)-->
+                            <!-- * * Note: * * Visible only on and above the sm breakpoint-->
+                            <a class="nav-link d-sm-none" href="#!">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bell"><path d="M18 8A6 6 0 0 0 6 8c0 7-3 9-3 9h18s-3-2-3-9"></path><path d="M13.73 21a2 2 0 0 1-3.46 0"></path></svg></div>
+                                Alerts
+                                <span class="badge bg-warning-soft text-warning ms-auto">4 New!</span>
+                            </a>
+                            <!-- Sidenav Link (Messages)-->
+                            <!-- * * Note: * * Visible only on and above the sm breakpoint-->
+                            <a class="nav-link d-sm-none" href="#!">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-mail"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline></svg></div>
+                                Messages
+                                <span class="badge bg-success-soft text-success ms-auto">2 New!</span>
+                            </a>
+                            <!-- Sidenav Menu Heading (Core)-->
+                            <div class="sidenav-menu-heading">Core</div>
+                            <!-- Sidenav Accordion (Dashboard)-->
+                            <a class="nav-link active" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseDashboards" aria-expanded="false" aria-controls="collapseDashboards">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-activity"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"></polyline></svg></div>
+                                Dashboards
+                                <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                            </a>
+                            <div class="collapse show" id="collapseDashboards" data-bs-parent="#accordionSidenav">
+                                <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPages">
+                                    <a class="nav-link active" href="dashboard-1.html">
+                                        Default
+                                        <span class="badge bg-primary-soft text-primary ms-auto">Updated</span>
+                                    </a>
+                                    <a class="nav-link" href="dashboard-2.html">Multipurpose</a>
+                                    <a class="nav-link" href="dashboard-3.html">Affiliate</a>
+                                </nav>
+                            </div>
+                            <!-- Sidenav Heading (Custom)-->
+                            <div class="sidenav-menu-heading">Custom</div>
+                            <!-- Sidenav Accordion (Pages)-->
+                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapsePages" aria-expanded="false" aria-controls="collapsePages">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-grid"><rect x="3" y="3" width="7" height="7"></rect><rect x="14" y="3" width="7" height="7"></rect><rect x="14" y="14" width="7" height="7"></rect><rect x="3" y="14" width="7" height="7"></rect></svg></div>
+                                Pages
+                                <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                            </a>
+                            <div class="collapse" id="collapsePages" data-bs-parent="#accordionSidenav">
+                                <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPagesMenu">
+                                    <!-- Nested Sidenav Accordion (Pages -> Account)-->
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAccount" aria-expanded="false" aria-controls="pagesCollapseAccount">
+                                        Account
+                                        <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseAccount" data-bs-parent="#accordionSidenavPagesMenu">
+                                        <nav class="sidenav-menu-nested nav">
+                                            <a class="nav-link" href="account-profile.html">Profile</a>
+                                            <a class="nav-link" href="account-billing.html">Billing</a>
+                                            <a class="nav-link" href="account-security.html">Security</a>
+                                            <a class="nav-link" href="account-notifications.html">Notifications</a>
+                                        </nav>
+                                    </div>
+                                    <!-- Nested Sidenav Accordion (Pages -> Authentication)-->
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuth" aria-expanded="false" aria-controls="pagesCollapseAuth">
+                                        Authentication
+                                        <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseAuth" data-bs-parent="#accordionSidenavPagesMenu">
+                                        <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavPagesAuth">
+                                            <!-- Nested Sidenav Accordion (Pages -> Authentication -> Basic)-->
+                                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthBasic" aria-expanded="false" aria-controls="pagesCollapseAuthBasic">
+                                                Basic
+                                                <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                            </a>
+                                            <div class="collapse" id="pagesCollapseAuthBasic" data-bs-parent="#accordionSidenavPagesAuth">
+                                                <nav class="sidenav-menu-nested nav">
+                                                    <a class="nav-link" href="auth-login-basic.html">Login</a>
+                                                    <a class="nav-link" href="auth-register-basic.html">Register</a>
+                                                    <a class="nav-link" href="auth-password-basic.html">Forgot Password</a>
+                                                </nav>
+                                            </div>
+                                            <!-- Nested Sidenav Accordion (Pages -> Authentication -> Social)-->
+                                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseAuthSocial" aria-expanded="false" aria-controls="pagesCollapseAuthSocial">
+                                                Social
+                                                <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                            </a>
+                                            <div class="collapse" id="pagesCollapseAuthSocial" data-bs-parent="#accordionSidenavPagesAuth">
+                                                <nav class="sidenav-menu-nested nav">
+                                                    <a class="nav-link" href="auth-login-social.html">Login</a>
+                                                    <a class="nav-link" href="auth-register-social.html">Register</a>
+                                                    <a class="nav-link" href="auth-password-social.html">Forgot Password</a>
+                                                </nav>
+                                            </div>
+                                        </nav>
+                                    </div>
+                                    <!-- Nested Sidenav Accordion (Pages -> Error)-->
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#pagesCollapseError" aria-expanded="false" aria-controls="pagesCollapseError">
+                                        Error
+                                        <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                    </a>
+                                    <div class="collapse" id="pagesCollapseError" data-bs-parent="#accordionSidenavPagesMenu">
+                                        <nav class="sidenav-menu-nested nav">
+                                            <a class="nav-link" href="error-400.html">400 Error</a>
+                                            <a class="nav-link" href="error-401.html">401 Error</a>
+                                            <a class="nav-link" href="error-403.html">403 Error</a>
+                                            <a class="nav-link" href="error-404-1.html">404 Error 1</a>
+                                            <a class="nav-link" href="error-404-2.html">404 Error 2</a>
+                                            <a class="nav-link" href="error-500.html">500 Error</a>
+                                            <a class="nav-link" href="error-503.html">503 Error</a>
+                                            <a class="nav-link" href="error-504.html">504 Error</a>
+                                        </nav>
+                                    </div>
+                                    <a class="nav-link" href="pricing.html">Pricing</a>
+                                    <a class="nav-link" href="invoice.html">Invoice</a>
+                                </nav>
+                            </div>
+                            <!-- Sidenav Accordion (Applications)-->
+                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseApps" aria-expanded="false" aria-controls="collapseApps">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-globe"><circle cx="12" cy="12" r="10"></circle><line x1="2" y1="12" x2="22" y2="12"></line><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path></svg></div>
+                                Applications
+                                <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                            </a>
+                            <div class="collapse" id="collapseApps" data-bs-parent="#accordionSidenav">
+                                <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavAppsMenu">
+                                    <!-- Nested Sidenav Accordion (Apps -> Knowledge Base)-->
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseKnowledgeBase" aria-expanded="false" aria-controls="appsCollapseKnowledgeBase">
+                                        Knowledge Base
+                                        <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                    </a>
+                                    <div class="collapse" id="appsCollapseKnowledgeBase" data-bs-parent="#accordionSidenavAppsMenu">
+                                        <nav class="sidenav-menu-nested nav">
+                                            <a class="nav-link" href="knowledge-base-home-1.html">Home 1</a>
+                                            <a class="nav-link" href="knowledge-base-home-2.html">Home 2</a>
+                                            <a class="nav-link" href="knowledge-base-category.html">Category</a>
+                                            <a class="nav-link" href="knowledge-base-article.html">Article</a>
+                                        </nav>
+                                    </div>
+                                    <!-- Nested Sidenav Accordion (Apps -> User Management)-->
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapseUserManagement" aria-expanded="false" aria-controls="appsCollapseUserManagement">
+                                        User Management
+                                        <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                    </a>
+                                    <div class="collapse" id="appsCollapseUserManagement" data-bs-parent="#accordionSidenavAppsMenu">
+                                        <nav class="sidenav-menu-nested nav">
+                                            <a class="nav-link" href="user-management-list.html">Users List</a>
+                                            <a class="nav-link" href="user-management-edit-user.html">Edit User</a>
+                                            <a class="nav-link" href="user-management-add-user.html">Add User</a>
+                                            <a class="nav-link" href="user-management-groups-list.html">Groups List</a>
+                                            <a class="nav-link" href="user-management-org-details.html">Organization Details</a>
+                                        </nav>
+                                    </div>
+                                    <!-- Nested Sidenav Accordion (Apps -> Posts Management)-->
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#appsCollapsePostsManagement" aria-expanded="false" aria-controls="appsCollapsePostsManagement">
+                                        Posts Management
+                                        <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                    </a>
+                                    <div class="collapse" id="appsCollapsePostsManagement" data-bs-parent="#accordionSidenavAppsMenu">
+                                        <nav class="sidenav-menu-nested nav">
+                                            <a class="nav-link" href="blog-management-posts-list.html">Posts List</a>
+                                            <a class="nav-link" href="blog-management-create-post.html">Create Post</a>
+                                            <a class="nav-link" href="blog-management-edit-post.html">Edit Post</a>
+                                            <a class="nav-link" href="blog-management-posts-admin.html">Posts Admin</a>
+                                        </nav>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- Sidenav Accordion (Flows)-->
+                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseFlows" aria-expanded="false" aria-controls="collapseFlows">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-repeat"><polyline points="17 1 21 5 17 9"></polyline><path d="M3 11V9a4 4 0 0 1 4-4h14"></path><polyline points="7 23 3 19 7 15"></polyline><path d="M21 13v2a4 4 0 0 1-4 4H3"></path></svg></div>
+                                Flows
+                                <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                            </a>
+                            <div class="collapse" id="collapseFlows" data-bs-parent="#accordionSidenav">
+                                <nav class="sidenav-menu-nested nav">
+                                    <a class="nav-link" href="multi-tenant-select.html">Multi-Tenant Registration</a>
+                                    <a class="nav-link" href="wizard.html">Wizard</a>
+                                </nav>
+                            </div>
+                            <!-- Sidenav Heading (UI Toolkit)-->
+                            <div class="sidenav-menu-heading">UI Toolkit</div>
+                            <!-- Sidenav Accordion (Layout)-->
+                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayouts" aria-expanded="false" aria-controls="collapseLayouts">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-layout"><rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect><line x1="3" y1="9" x2="21" y2="9"></line><line x1="9" y1="21" x2="9" y2="9"></line></svg></div>
+                                Layout
+                                <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                            </a>
+                            <div class="collapse" id="collapseLayouts" data-bs-parent="#accordionSidenav">
+                                <nav class="sidenav-menu-nested nav accordion" id="accordionSidenavLayout">
+                                    <!-- Nested Sidenav Accordion (Layout -> Navigation)-->
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutSidenavVariations" aria-expanded="false" aria-controls="collapseLayoutSidenavVariations">
+                                        Navigation
+                                        <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                    </a>
+                                    <div class="collapse" id="collapseLayoutSidenavVariations" data-bs-parent="#accordionSidenavLayout">
+                                        <nav class="sidenav-menu-nested nav">
+                                            <a class="nav-link" href="layout-static.html">Static Sidenav</a>
+                                            <a class="nav-link" href="layout-dark.html">Dark Sidenav</a>
+                                            <a class="nav-link" href="layout-rtl.html">RTL Layout</a>
+                                        </nav>
+                                    </div>
+                                    <!-- Nested Sidenav Accordion (Layout -> Container Options)-->
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutContainers" aria-expanded="false" aria-controls="collapseLayoutContainers">
+                                        Container Options
+                                        <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                    </a>
+                                    <div class="collapse" id="collapseLayoutContainers" data-bs-parent="#accordionSidenavLayout">
+                                        <nav class="sidenav-menu-nested nav">
+                                            <a class="nav-link" href="layout-boxed.html">Boxed Layout</a>
+                                            <a class="nav-link" href="layout-fluid.html">Fluid Layout</a>
+                                        </nav>
+                                    </div>
+                                    <!-- Nested Sidenav Accordion (Layout -> Page Headers)-->
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsPageHeaders" aria-expanded="false" aria-controls="collapseLayoutsPageHeaders">
+                                        Page Headers
+                                        <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                    </a>
+                                    <div class="collapse" id="collapseLayoutsPageHeaders" data-bs-parent="#accordionSidenavLayout">
+                                        <nav class="sidenav-menu-nested nav">
+                                            <a class="nav-link" href="header-simplified.html">Simplified</a>
+                                            <a class="nav-link" href="header-compact.html">Compact</a>
+                                            <a class="nav-link" href="header-overlap.html">Content Overlap</a>
+                                            <a class="nav-link" href="header-breadcrumbs.html">Breadcrumbs</a>
+                                            <a class="nav-link" href="header-light.html">Light</a>
+                                        </nav>
+                                    </div>
+                                    <!-- Nested Sidenav Accordion (Layout -> Starter Layouts)-->
+                                    <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseLayoutsStarterTemplates" aria-expanded="false" aria-controls="collapseLayoutsStarterTemplates">
+                                        Starter Layouts
+                                        <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                                    </a>
+                                    <div class="collapse" id="collapseLayoutsStarterTemplates" data-bs-parent="#accordionSidenavLayout">
+                                        <nav class="sidenav-menu-nested nav">
+                                            <a class="nav-link" href="starter-default.html">Default</a>
+                                            <a class="nav-link" href="starter-minimal.html">Minimal</a>
+                                        </nav>
+                                    </div>
+                                </nav>
+                            </div>
+                            <!-- Sidenav Accordion (Components)-->
+                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseComponents" aria-expanded="false" aria-controls="collapseComponents">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-package"><line x1="16.5" y1="9.4" x2="7.5" y2="4.21"></line><path d="M21 16V8a2 2 0 0 0-1-1.73l-7-4a2 2 0 0 0-2 0l-7 4A2 2 0 0 0 3 8v8a2 2 0 0 0 1 1.73l7 4a2 2 0 0 0 2 0l7-4A2 2 0 0 0 21 16z"></path><polyline points="3.27 6.96 12 12.01 20.73 6.96"></polyline><line x1="12" y1="22.08" x2="12" y2="12"></line></svg></div>
+                                Components
+                                <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                            </a>
+                            <div class="collapse" id="collapseComponents" data-bs-parent="#accordionSidenav">
+                                <nav class="sidenav-menu-nested nav">
+                                    <a class="nav-link" href="alerts.html">Alerts</a>
+                                    <a class="nav-link" href="avatars.html">Avatars</a>
+                                    <a class="nav-link" href="badges.html">Badges</a>
+                                    <a class="nav-link" href="buttons.html">Buttons</a>
+                                    <a class="nav-link" href="cards.html">
+                                        Cards
+                                        <span class="badge bg-primary-soft text-primary ms-auto">Updated</span>
+                                    </a>
+                                    <a class="nav-link" href="dropdowns.html">Dropdowns</a>
+                                    <a class="nav-link" href="forms.html">
+                                        Forms
+                                        <span class="badge bg-primary-soft text-primary ms-auto">Updated</span>
+                                    </a>
+                                    <a class="nav-link" href="modals.html">Modals</a>
+                                    <a class="nav-link" href="navigation.html">Navigation</a>
+                                    <a class="nav-link" href="progress.html">Progress</a>
+                                    <a class="nav-link" href="step.html">Step</a>
+                                    <a class="nav-link" href="timeline.html">Timeline</a>
+                                    <a class="nav-link" href="toasts.html">Toasts</a>
+                                    <a class="nav-link" href="tooltips.html">Tooltips</a>
+                                </nav>
+                            </div>
+                            <!-- Sidenav Accordion (Utilities)-->
+                            <a class="nav-link collapsed" href="javascript:void(0);" data-bs-toggle="collapse" data-bs-target="#collapseUtilities" aria-expanded="false" aria-controls="collapseUtilities">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-tool"><path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path></svg></div>
+                                Utilities
+                                <div class="sidenav-collapse-arrow"><svg class="svg-inline--fa fa-angle-down" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="angle-down" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" data-fa-i2svg=""><path fill="currentColor" d="M192 384c-8.188 0-16.38-3.125-22.62-9.375l-160-160c-12.5-12.5-12.5-32.75 0-45.25s32.75-12.5 45.25 0L192 306.8l137.4-137.4c12.5-12.5 32.75-12.5 45.25 0s12.5 32.75 0 45.25l-160 160C208.4 380.9 200.2 384 192 384z"></path></svg><!-- <i class="fas fa-angle-down"></i> Font Awesome fontawesome.com --></div>
+                            </a>
+                            <div class="collapse" id="collapseUtilities" data-bs-parent="#accordionSidenav">
+                                <nav class="sidenav-menu-nested nav">
+                                    <a class="nav-link" href="animations.html">Animations</a>
+                                    <a class="nav-link" href="background.html">Background</a>
+                                    <a class="nav-link" href="borders.html">Borders</a>
+                                    <a class="nav-link" href="lift.html">Lift</a>
+                                    <a class="nav-link" href="shadows.html">Shadows</a>
+                                    <a class="nav-link" href="typography.html">Typography</a>
+                                </nav>
+                            </div>
+                            <!-- Sidenav Heading (Addons)-->
+                            <div class="sidenav-menu-heading">Plugins</div>
+                            <!-- Sidenav Link (Charts)-->
+                            <a class="nav-link" href="charts.html">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-bar-chart"><line x1="12" y1="20" x2="12" y2="10"></line><line x1="18" y1="20" x2="18" y2="4"></line><line x1="6" y1="20" x2="6" y2="16"></line></svg></div>
+                                Charts
+                            </a>
+                            <!-- Sidenav Link (Tables)-->
+                            <a class="nav-link" href="tables.html">
+                                <div class="nav-link-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-filter"><polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon></svg></div>
+                                Tables
+                            </a>
+                        </div>
+                    </div>
+                    <!-- Sidenav Footer-->
+                    <div class="sidenav-footer">
+                        <div class="sidenav-footer-content">
+                            <div class="sidenav-footer-subtitle">Logged in as:</div>
+                            <div class="sidenav-footer-title">Valerie Luna</div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+            
+            
+            
+            <div id="layoutSidenav_content">
+                <main>
+                    <header class="py-10 mb-4 bg-gradient-primary-to-secondary">
+                        <div class="container-xl px-4">
+                            <div class="text-center">
+                                <h1 class="text-white">Welcome to SB Admin Pro</h1>
+                                <p class="lead mb-0 text-white-50">A professionally designed admin panel template built with Bootstrap 5</p>
+                            </div>
+                        </div>
+                    </header>
+                    </main>
+                    </div>
+		</div>
+
 
 		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" crossorigin="anonymous"></script>
         <script src="/resources/js/scripts.js"></script>
